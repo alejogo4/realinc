@@ -1,5 +1,5 @@
 .projects{
-    height: 70vh;
+    min-height: 70vh;
     overflow: hidden;
     padding: 10vh 0px;
     box-sizing: border-box;

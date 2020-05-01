@@ -46,7 +46,7 @@ body {
 }
 
 .position-absolute{
-  position: relative;
+  position: absolute;
 }
 
 .color-white{

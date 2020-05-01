@@ -3,8 +3,52 @@
     overflow: hidden;
     padding: 10vh 0px;
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
 }
 
 .tittle{
-    margin-top: var(--space-l);
+    text-align: center;
+}
+
+.do > div{
+    width: 100%;
+}
+
+.planet-left{
+    top: 0;
+    left: -30px;
+    width: 30%;
+}
+
+.planet-right{
+   top: 0;
+   right: -100px;
+   width: 30%;
+}
+
+
+.paragraph{
+    font-size: 16px;
+    text-align: justify;
+    margin: 30px 0px;
+    font-style: italic;
+    font-weight: bold;
+    color: var(--color-white);
+    text-align: center;
+    z-index: 999;
+}
+
+.no-bold{ 
+    font-weight: 200 !important;
+}
+
+.planets{
+    width: 100%;
+    height: auto;
+}
+
+.content-text{
+    max-width: 50%;
+    margin: 0 auto;
 }
