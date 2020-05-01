@@ -1,0 +1,39 @@
+.footer{
+    height: 70vh;
+    overflow: hidden;
+    padding: 10vh 0px;
+    box-sizing: border-box;
+}
+
+
+.cloud{
+    position:absolute;
+    bottom: 0px;
+    width: 45%;
+    z-index:10;
+    height: auto;
+}
+
+.cloud-parallax-container {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+
+.cloud-parallax{
+    width: 100%;
+    height: auto;
+}
+
+.cloud-black-left,
+.cloud-white-left{
+    left: -10%;
+}
+
+
+.cloud-black-right,
+.cloud-white-right{
+    right: -15%;
+}

@@ -1,0 +1,10 @@
+.do{
+    min-height: 80vh;
+    overflow: hidden;
+    padding: 10vh 0px;
+    box-sizing: border-box;
+}
+
+.tittle{
+    margin-top: var(--space-l);
+}

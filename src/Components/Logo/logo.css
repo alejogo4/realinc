@@ -1,0 +1,88 @@
+.logo{
+    max-width: 200px;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto 0px auto;
+}
+
+.logo svg{
+    width: 100%;
+    height: auto;
+}
+
+.logo svg:last-child {
+    width: 76%;
+}
+
+.logo-ico{
+    -webkit-animation: 2s fadein;
+          animation: 2s fadein;
+}
+
+.logo-text{
+  -webkit-animation: 2s name linear;
+          animation: 2s name linear;
+    padding-left: 10px;
+    margin-top: 9px;
+}
+
+@-webkit-keyframes fadein {
+    0% {
+      opacity: 0;
+      -webkit-transform: scale(0.8);
+              transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+      -webkit-transform: scale(0.8);
+              transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @-webkit-keyframes name {
+    0% {
+      opacity: 0;
+      -webkit-transform: scale(0.8);
+              transform: scale(0.8);
+    }
+    80% {
+      opacity: 0;
+      -webkit-transform: scale(0.8);
+              transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes name {
+    0% {
+      opacity: 0;
+      -webkit-transform: scale(0.8);
+              transform: scale(0.8);
+    }
+    80% {
+      opacity: 0;
+      -webkit-transform: scale(0.8);
+              transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
