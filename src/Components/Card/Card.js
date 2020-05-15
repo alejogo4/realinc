@@ -6,7 +6,7 @@ function Card(props) {
   const { children, image, content,width } = props;
   console.log(children, image, content);
   return (
-    <div className="card" style={{width:width+"%"}}>
+    <div className="card-custom" style={{width:width+"%"}}>
       {cloneElement(image, {
         ...image.props,
         children,

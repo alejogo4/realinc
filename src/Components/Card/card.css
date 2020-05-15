@@ -1,4 +1,4 @@
-.card{
+.card-custom{
     max-width: 30%;
     min-height: 100px;
     border:1px solid var(--color-gray2);
@@ -7,7 +7,7 @@
     overflow: auto;
 }
 
-.card svg{
+.card-custom svg{
     width: 20%;
     display: block;
     margin: 0 auto;

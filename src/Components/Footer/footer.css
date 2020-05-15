@@ -54,7 +54,7 @@
 }
 
 .button-contact:hover:after{
-    padding: 18px 84px;
+    padding: 18px 87px;
 }
 
 
@@ -62,7 +62,7 @@
     border:none;
     background-color: #fff;
     color: #252525;
-    padding: 15px 55px;
+    padding: 15px 56px;
     position: relative;
     border-radius: 50px;
     transition: 0.4s;
@@ -75,10 +75,10 @@
 .button-contact::after{
     content: '-';
     border:none;
-    padding: 18px 74px;
+    padding: 18px 78px;
     position: absolute;
     border: 10px solid white;
-    left: -12px;
+    left: -13px;
     top: -13px;
     border-radius: 50px;
     box-sizing: border-box;

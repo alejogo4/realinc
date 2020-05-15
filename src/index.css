@@ -4,7 +4,7 @@ body {
   border: 0;
   text-decoration: none;
   overflow: auto;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #c3c3c3;
