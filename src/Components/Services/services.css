@@ -42,12 +42,12 @@
     filter: grayscale(0%);
 }
 
-.col-1{
+.colu-1{
     width: 50%;
     text-align: center;
 }
 
-.col-2{
+.colu-2{
     width: 40%;
     text-align: center;
 }

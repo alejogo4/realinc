@@ -8,3 +8,28 @@
 .tittle{
     margin-top: var(--space-l);
 }
+
+.icon-slide{
+    color:black;
+    font-size: 28px;
+}
+
+.selider{
+    position: relative;
+}
+
+.move-slide-content{
+    top: 41% !important;
+    right: 8% !important;
+    width: 35%;
+    left: auto !important;
+    bottom: auto !important;
+}
+
+.move-slide-content-left{
+    top: 30% !important;
+    left: 12% !important;
+    width: 35%;
+    right: auto !important;
+    bottom: auto !important;
+}

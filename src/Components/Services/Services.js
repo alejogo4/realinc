@@ -41,7 +41,7 @@ const Services = () => {
       <div className="tools">
         <h3 className="subttitle">¿QUE USAMOS PARA LOGRARLO?</h3>
         <div className="col-2-tools">
-            <div className="col-1">
+            <div className="colu-1">
                 <p>Desarrollamos con</p>
                 <div className="flex">
                     <Ico6/>
@@ -54,7 +54,7 @@ const Services = () => {
                     <Ico13/>
                 </div>
             </div>
-            <div className="col-2">
+            <div className="colu-2">
                 <p>Y le damos las figuras y formas con</p>
                 <div className="flex">
                     <Ico3/>
