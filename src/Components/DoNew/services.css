@@ -1,0 +1,29 @@
+.services{
+    min-height: 100vh;
+    overflow: hidden;
+    padding: 10vh 0px;
+    box-sizing: border-box;
+}
+
+.icons-product{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.container-cards{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: 40px auto;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('background_stars.png');
+    background-size: 100% 200%;
+}
+
+
+.card-text{
+    width: 100%;
+    bottom: 0;
+}

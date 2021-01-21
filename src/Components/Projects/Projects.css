@@ -24,12 +24,24 @@
     width: 35%;
     left: auto !important;
     bottom: auto !important;
+    color:var(--color-gray);
+}
+
+
+.phone{
+    position: absolute;
+    width: 100%;
 }
 
 .move-slide-content-left{
     top: 30% !important;
     left: 12% !important;
-    width: 35%;
+    width: 45%;
     right: auto !important;
     bottom: auto !important;
+
+}
+
+.carousel{
+    position: relative;
 }

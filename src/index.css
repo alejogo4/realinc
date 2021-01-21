@@ -7,7 +7,7 @@ body {
   font-family: 'Nunito', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #c3c3c3;
+  background: white;
 }
 
 :root{

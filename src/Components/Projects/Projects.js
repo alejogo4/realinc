@@ -3,6 +3,8 @@ import "./Projects.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-bootstrap/Carousel";
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
+
+
 const Projects = () => {
   return (
     <section className="container-full projects position-relative">
@@ -17,21 +19,22 @@ const Projects = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="http://dinter.com.hn/wp-content/uploads/2014/04/slider-2.jpg"
+              src={require('./../../resources/bg_slider.png')}
               alt="Third slide"
             />
 
             <Carousel.Caption className="move-slide-content">
+              
               <h3>Second slide label</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
 
             <Carousel.Caption className="move-slide-content-left">
-              <Carousel controls={false} interval={null}>
+              <Carousel className="carousel" controls={false} interval={null}>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src="http://dinter.com.hn/wp-content/uploads/2014/04/slider-1.jpg"
+                    src= 'require("./../../resources/t2.png").default'
                     alt="First slide"
                   />
                   <Carousel.Caption>

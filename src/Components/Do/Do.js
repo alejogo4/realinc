@@ -5,7 +5,7 @@ import { ReactComponent as PlanetRight  } from './../../resources/plante_circle.
 import { ReactComponent as PlanetLeft  } from './../../resources/planet_squared.svg';
 
 import { Parallax } from 'react-scroll-parallax';
-const Do = () => {
+const Doe = () => {
     return (
         <section className="container-full bg-stars do position-relative">
             <div>
@@ -26,4 +26,4 @@ const Do = () => {
     )
 }
 
-export default Do
+export default Doe
