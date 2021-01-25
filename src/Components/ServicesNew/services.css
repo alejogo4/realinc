@@ -1,57 +1,94 @@
-.services{
-    min-height: 100vh;
-    overflow: hidden;
-    padding: 10vh 0px;
-    box-sizing: border-box;
+.services {
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 100px 0px;
+  box-sizing: border-box;
 }
 
-
-.container-cards{
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    margin: 40px auto;
-    justify-content: space-around;
+.container-cards {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin: 40px auto;
+  justify-content: space-around;
 }
 
-.subttitle{
-    text-align: center;
+.container-service {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
 }
 
-.col-2-tools{
+.left-content,
+.right-content {
+  width: 40%;
+  position: relative;
+}
+
+.left-content img,
+.right-content img {
+  width: 100%;
+  position: absolute;
+}
+
+.left-content img {
+  left: 0;
+  top: 20px;
+}
+
+.right-content img {
+  right: 0;
+  top: 20px;
+}
+
+.container-service .title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.container-service:not(:first-child) {
+  margin-top: 100px;
+}
+
+/*------*/
+
+@media screen and (max-width: 560px) {
+  .m-full-content {
     width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
+    position: relative;
+    text-align: justify;
+  }
 
-.flex{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-.flex svg{
-    max-width: 40px;
-    transition: 0.8s;
-    filter: grayscale(100%);
-}
+  .container-service {
+    width: 90%;
+    display: block;
+    position: relative;
+  }
 
-.flex svg:hover{
-    filter: grayscale(0%);
-}
+  .container-service .title {
+    font-size: 40px;
+  }
 
-.colu-1{
-    width: 50%;
-    text-align: center;
-}
+  .container-service:first-child .right-content {
+    position: absolute;
+    right: -100px;
+    top: 0;
+    width: 150%;
+    position: absolute;
+    z-index: -10;
+    opacity: 0.1;
+  }
 
-.colu-2{
-    width: 40%;
-    text-align: center;
-}
-
-.tools{
-    margin-top: 90px;
+  .container-service:last-child .left-content {
+    position: absolute;
+    left: -100px;
+    top: 0;
+    width: 150%;
+    position: absolute;
+    z-index: -10;
+    opacity: 0.1;
+  }
 }

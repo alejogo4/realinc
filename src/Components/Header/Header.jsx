@@ -15,13 +15,15 @@ import { Parallax } from 'react-scroll-parallax';
 function Header(){
     return(
 
-        <header className="header bg-stars">
-            <Parallax className="parallax-item logo"  y={['0px', '200px']}>
-                <Logo/>
+        <header className="header bg-stars shadow-s">
+            <GradientMiddle className="gradient-middle middle"/>
+            <Parallax className="parallax-item"  y={['0px', '200px']}>
+                <Logo className="logo"/>
+                <h2 className="title-head">Si se trata de proyectos digitales, nosotros lo hacemos REAL</h2>
             </Parallax>
             <Stars/>
          
-            <GradientMiddle className="gradient-middle middle"/>
+            
             <Parallax className="cloud cloud-black-left"  y={[-20, 40]}>
                 <CloudBlackLeft className="cloud-parallax"/>
             </Parallax>

@@ -5,7 +5,7 @@ import styled from "styled-components";
 import Header from "./Components/Header/Header";
 import Doe from "./Components/Do/Do";
 import Services from "./Components/ServicesNew/Services";
-import DoNew from "./Components/DoNew/Services";
+import DoNew from "./Components/DoNew/Do";
 import Footer from "./Components/Footer/Footer";
 
 import { ParallaxProvider, Parallax } from "react-scroll-parallax";

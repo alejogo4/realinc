@@ -5,6 +5,14 @@
     position:relative;
 }
 
+.title-head{
+  text-align: center;
+  color: var(--white);
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+
 .cloud{
     position:absolute;
     bottom: 0px;
@@ -44,11 +52,38 @@
   top:0px;
 }
 
-.middle{
-  z-index:9;
-}
-
 .middle2{
   z-index:0;
+}
+
+@media screen and (max-width: 960px) {
+  
+
+    
+}
+
+
+@media screen and (max-width: 560px) {
+ 
+
+  .gradient-middle{
+    display: none;
+  }
+
+  .logo{
+    max-width: 120px;
+  }
+
+  .title{
+    display: block;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .cloud{
+    width: 70% !important;
+  }
 }
 

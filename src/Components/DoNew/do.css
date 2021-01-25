@@ -1,4 +1,4 @@
-.services{
+.does{
     min-height: 100vh;
     overflow: hidden;
     padding: 10vh 0px;
@@ -20,10 +20,19 @@
     align-items: center;
     background-image: url('background_stars.png');
     background-size: 100% 200%;
+    text-align: center;
 }
 
 
 .card-text{
     width: 100%;
     bottom: 0;
+}
+
+
+@media screen and (max-width: 560px) {
+ 
+  .container-cards{
+    flex-direction: column;
+  }
 }

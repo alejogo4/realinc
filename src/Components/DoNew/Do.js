@@ -1,5 +1,5 @@
 import React from "react";
-import "./services.css";
+import "./do.css";
 
 import { ReactComponent as Desktop } from "./../../resources/services/icon_1.svg";
 import { ReactComponent as Mobile } from "./../../resources/services/icon_2.svg";
@@ -13,62 +13,42 @@ import { ReactComponent as Animation } from "./../../resources/services/icon_8.s
 
 const DoNew = () => {
   return (
-    <section className="container-full services">
+    <section className="container-full does">
       <div className="container-cards position-relative">
         <div>
           <Desktop className="icons-product" />
+          <h4>DESARROLLO WEB</h4>
         </div>
         <div>
           <Mobile className="icons-product" />
+          <h4>DESARROLLO WEB</h4>
         </div>
         <div>
           <Ecommerce className="icons-product" />
+          <h4>DESARROLLO WEB</h4>
         </div>
         <div>
           <Videogames className="icons-product" />
-        </div>
-        <div className="container-cards position-absolute card-text">
-          <div>
-            <h4>DESARROLLO WEB</h4>
-          </div>
-          <div>
-            <h4>DESARROLLO WEB</h4>
-          </div>
-          <div>
-            <h4>DESARROLLO WEB</h4>
-          </div>
-          <div>
-            <h4>DESARROLLO WEB</h4>
-          </div>
+          <h4>DESARROLLO WEB</h4>
         </div>
       </div>
 
       <div className="container-cards position-relative">
         <div>
           <AR className="icons-product" />
+          <h4>DESARROLLO WEB</h4>
         </div>
         <div>
           <Brand className="icons-product" />
+          <h4>DESARROLLO WEB</h4>
         </div>
         <div>
           <Illustration className="icons-product" />
+          <h4>DESARROLLO WEB</h4>
         </div>
         <div>
           <Animation className="icons-product" />
-        </div>
-        <div className="container-cards position-absolute card-text">
-          <div>
-            <h4>DESARROLLO WEB</h4>
-          </div>
-          <div>
-            <h4>DESARROLLO WEB</h4>
-          </div>
-          <div>
-            <h4>DESARROLLO WEB</h4>
-          </div>
-          <div>
-            <h4>DESARROLLO WEB</h4>
-          </div>
+          <h4>DESARROLLO WEB</h4>
         </div>
       </div>
     </section>

@@ -110,3 +110,19 @@
     line-height: 50px;
     text-align: center;
 }
+
+
+@media screen and (max-width: 560px) {
+    
+    .footer{
+        min-height: 100vh;
+    }
+
+    .footer .cloud{
+        width: 58% !important;
+    }
+
+    .form-container textarea{
+        height: 200px;
+    }
+}
